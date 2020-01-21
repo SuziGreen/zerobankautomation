@@ -1,0 +1,512 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-21T07:26:52.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4027908400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Savings is selected",
+        "description": "",
+        "id": "navigation-to-specify-accounts-in-accounts-activity;\u003coption\u003e-is-selected;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 641863200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322351500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300645000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on \"Savings\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 19
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.the_user_clicks_on_link_on_the_Account_Summary_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71465400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42720200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account drop down should have \"Savings\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.account_drop_down_should_have_selected(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T07:26:58.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3270654200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Brokerage is selected",
+        "description": "",
+        "id": "navigation-to-specify-accounts-in-accounts-activity;\u003coption\u003e-is-selected;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 611538800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 966229000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 305524300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on \"Brokerage\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brokerage\"",
+                  "offset": 19
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.the_user_clicks_on_link_on_the_Account_Summary_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64620000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41445800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account drop down should have \"Brokerage\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brokerage\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.account_drop_down_should_have_selected(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T07:27:03.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3276773100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Checking is selected",
+        "description": "",
+        "id": "navigation-to-specify-accounts-in-accounts-activity;\u003coption\u003e-is-selected;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 615351300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 856545800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304907600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on \"Checking\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 19
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.the_user_clicks_on_link_on_the_Account_Summary_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70047200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40856800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account drop down should have \"Checking\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.account_drop_down_should_have_selected(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T07:27:08.928Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3261517000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Credit Card is selected",
+        "description": "",
+        "id": "navigation-to-specify-accounts-in-accounts-activity;\u003coption\u003e-is-selected;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 602962600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1603575600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333659800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on \"Credit Card\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 19
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.the_user_clicks_on_link_on_the_Account_Summary_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67563600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39856500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account drop down should have \"Credit Card\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.account_drop_down_should_have_selected(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T07:27:14.840Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3268290900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Loan is selected",
+        "description": "",
+        "id": "navigation-to-specify-accounts-in-accounts-activity;\u003coption\u003e-is-selected;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 941458800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267689300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360998700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on \"Loan\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.the_user_clicks_on_link_on_the_Account_Summary_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68412200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityStepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40972700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account drop down should have \"Loan\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loan\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AccountActivityStepDefinitions.account_drop_down_should_have_selected(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation to specify accounts in Accounts Activity",
+    "description": "",
+    "id": "navigation-to-specify-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": [
+      {
+        "name": "@Navigation",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
